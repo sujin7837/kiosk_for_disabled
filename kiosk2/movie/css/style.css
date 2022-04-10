@@ -1,0 +1,264 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+    margin: 0 auto;
+    background-color:white;
+    text-align: center;
+    color: white;
+  }
+
+  #main{
+          margin-left: auto;
+          margin-right: auto;
+          width: 1080px;
+          height: 100%;
+          background-color: #4f4f4f;
+        }
+
+.ja{
+        width: 1080px;
+        height: 120px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        background-color: #8fc43b;
+      }
+
+a{
+    margin-top: 30px;
+    width: 1080px;
+    height: 60px;
+  }
+
+#view1{
+    width: 1080px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 360px 720px;
+    grid-template-rows: 150px 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#view2{
+    display: inline;
+    width: 800px;
+    height: 120px;
+}
+
+#zero{
+    width: 0px;
+    height: 0px;
+}
+
+#view3{
+    display: grid;
+    grid-template-columns: 400px 320px;
+    grid-template-rows: 80px 100px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
+#image {
+    width: 200px;
+    height: 280px;
+    position: relative;
+    left: 160px;
+    top: 35px;
+    margin: 0;
+}
+
+#movietitle{
+    position: relative;
+    padding-top: 80px;
+    font-size: 33px;
+    right: 120px;
+}
+
+#grade{
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    font-size: 27px;
+}
+
+#time{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 27px;
+}
+
+#personnel {
+    padding-top: 5px;
+    font-size: 27px;
+    padding-right: 135px;
+}
+
+#selectedSeat{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 27px;
+}
+
+#dd{
+    padding-top: 20px;
+    padding-right: 3px;
+    font-size: 27px;
+  }
+
+.costbox {
+    width: 1080px;
+    height: 75px;
+    color: white;
+    background-color: #727272;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: right;
+}
+#price{
+  display:block;
+  padding-right: 180px;
+  font-size: 27px;
+}
+#seat {
+    width: 750px;
+    height: 1000px;
+}
+
+#screen {
+    width: 750px;
+    height: 80px;
+    color: whtie;
+    position: relative;
+    left: 160px;
+    border: 1px solid white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#extable{
+        width: 751px;
+        height: 94px;
+        position: relative;
+        left: 160px;
+        border-top: 1px solid white;
+        border-left: 1px solid white;
+
+}
+
+.row1{
+    display: table-row;
+    width: 95px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.cell1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 95px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+
+.cell2{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 95px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1.5px solid white;
+}
+/* 첫 번째 테이블에 대한 CSS */
+.table {
+    display: table;
+    width: 750px;
+    height: 749px;
+    position: relative;
+    left: 160px;
+    border: 1px solid white;
+  }
+
+.row {
+    display: table-row;
+    width: 95px;
+    border: 1px solid white
+  }
+
+.col {
+    width: 95px;
+    border: 1px solid white
+  }
+
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 95px;
+    background-color: white
+  }
+
+
+#notice{
+    width: 1080px;
+    height: 75px;
+    color: #4f4f4f;
+    background-color: #f5f3d5;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#form{
+    width: 1080px;
+    height: 120px;
+    background-color: #727272;
+    color: white;
+}
+
+#previous{
+    width: 220px;
+    height: 80px;
+    color: white;
+    background-color: #979797;
+    position: relative;
+    font-size: 30px;
+    top: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    right: 317px;
+}
+
+
+#next {
+    width: 220px;
+    height: 80px;
+    color: white;
+    background-color: #979797;
+    position: relative;
+    font-size: 30px;
+    top: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    left: 317px;
+}
+
+.on {
+    background-color: #ff5656;
+}
+
+.off {
+    background-color: #1C1C1C;
+}

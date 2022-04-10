@@ -1,0 +1,69 @@
+/* 1009 다 바뀜 */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+  margin: 0 auto;
+  background-color:white;
+  text-align: center;
+  font-size:1.6em;
+}
+#main{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  height: 100%;
+}
+/* 1009 */
+.nameTop{
+  width: 1080px;
+  height: 30px;
+  background-color: #8fc43b;
+}
+.nameBottom{
+  width: 1080px;
+  height: 30px;
+  background-color: #8fc43b;
+}
+img.name{
+  width:1080px;
+  height:60px;
+  vertical-align: bottom;
+}
+.time{
+  width:1080px;
+  height:300px;
+  background-color:#727272;
+  color: white;
+}
+
+#time{
+  letter-spacing : 1px;
+  line-height: 60px;
+  padding-top: 100px;
+  font-size: 1.8em;
+}
+img.Advertisement{
+  width:1080px;
+  height: 450px;
+  vertical-align: bottom;
+}
+.cardBox{
+  width:1080px;
+  height:480px;
+  line-height: 290px;
+  background-color: #4f4f4f;
+}
+/* 1009 */
+img.btn{
+  width: 270px;
+  height: 300px;
+  margin: 20px;
+  margin-top: 85px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* 1009 */
+img.movieAd{
+  width: 1080px;
+  height: 570px;
+  vertical-align: bottom;
+}
